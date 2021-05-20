@@ -1,10 +1,10 @@
-#Step 5
+
 
 import random
 from hangman_art import stages
 from hangman_art import logo
 from hangman_words import word_list
-from replit import clear
+
 
 def strike(text):
     result = ''
