@@ -23,7 +23,6 @@ operations = {
 }
 
 def calculator():
-    print(logo)
     num1 = float(input("what's the first number? "))
     for symbol in operations:
         print(symbol)
