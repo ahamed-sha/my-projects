@@ -4,7 +4,7 @@ import os
 
 endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 api_key = os.environ.get("API_KEY")
-account_sid = "53535353"
+account_sid = "1111111111"
 auth_token = os.environ.get("AUTH_TKN")
 
 weather_params = {
@@ -31,8 +31,8 @@ if will_rain:
     message = client.messages \
         .create(
         body="you probably need an umbrella!",
-        from_="123456789",
-        to='1111111111'
+        from_="+123456789",
+        to='+1111111111'
     )
 
     print(message.status)
