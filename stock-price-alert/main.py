@@ -10,8 +10,8 @@ PASSWORD = "abcdefgh123#"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-NEWS_API_KEY = "013u01824242"
-STOCK_API_KEY = "92428947204820"
+NEWS_API_KEY = "013u018222"
+STOCK_API_KEY = "9242817204820"
 
 stock_params = {
     "apikey": STOCK_API_KEY,
