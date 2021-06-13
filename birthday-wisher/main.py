@@ -4,7 +4,7 @@ import random
 import smtplib
 
 my_email = "test@gmail.com"
-password = "abcd1234$$"
+password = "abcd1234"
 
 now = dt.datetime.now()
 month = now.month
