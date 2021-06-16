@@ -12,7 +12,7 @@ class FlightSearch:
     def get_destination_codes(self, city_names):
         print("get destination codes triggered")
         location_endpoint = f"{TEQUILA_ENDPOINT}/locations/query"
-        headers = {"apikey": "WqATYVO_KTlBzZV5v2UfPay_Opv02jRj"}
+        headers = {"apikey": "uahf98af89ahfau"}
         for city in city_names:
             query = {"term": city, "location_types": "city"}
             response = requests.get(url=location_endpoint, headers=headers, params=query)
@@ -24,7 +24,7 @@ class FlightSearch:
 
     def check_flights(self, origin_city_code, destination_city_code, from_time, to_time):
         print(f"Check flights triggered for {destination_city_code}")
-        headers = {"apikey": "WqATYVO_KTlBzZV5v2UfPay_Opv02jRj"}
+        headers = {"apikey": "auofhaoufh98yfa89"}
         query = {
             "fly_from": origin_city_code,
             "fly_to": destination_city_code,
