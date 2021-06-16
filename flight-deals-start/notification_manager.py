@@ -1,6 +1,6 @@
 import smtplib
-EMAIL = "oliviasanchezmex@gmail.com"
-PASSWORD = "Udemy123#"
+EMAIL = "test@gmail.com"
+PASSWORD = "1234567"
 
 class NotificationManager:
 
