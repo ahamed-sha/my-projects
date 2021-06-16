@@ -7,7 +7,7 @@ email1 = input("what is your email?\n")
 email2 = input("Type your email again to confirm\n")
 
 if email1 == email2:
-    post_endpoint = "https://api.sheety.co/2a4b403b28bb206e0e8cb64f1581fcd1/flightDeals/users"
+    post_endpoint = "https://api.sheety.co/2424242424/flightDeals/users"
     query = {
         "user": {
             "firstName": first_name,
