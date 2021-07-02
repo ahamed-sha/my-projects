@@ -10,10 +10,9 @@ driver = webdriver.Chrome(executable_path="C:/Development/chromedriver.exe")
 driver.get("https://www.linkedin.com/checkpoint/lg/login")
 
 username = driver.find_element_by_id("username")
-username.send_keys("oliviasanchezmex@gmail.com")
-
+username.send_keys(email)
 password = driver.find_element_by_id("password")
-password.send_keys("Udemy123#")
+password.send_keys(password)
 
 login = driver.find_element_by_css_selector(".login__form_action_container button")
 login.click()
