@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import smtplib
 
 PRICE = 2500
-USERNAME = "hello@gmail.com"
-PASSWORD = "abcde"
+USERNAME = "username"
+PASSWORD = "password"
 
 header = {
     "Accept-Language": "en-US,en;q=0.5",
