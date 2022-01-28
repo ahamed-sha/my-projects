@@ -1,2 +1,2 @@
 # my-projects
-This repository consists most of my projects that I have done.
+Top projects that I have done from simple programs like 
