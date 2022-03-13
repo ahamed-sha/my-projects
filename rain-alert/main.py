@@ -2,14 +2,18 @@ import requests
 from twilio.rest import Client
 import os
 
+# Latitude and Longitude for chennai
+LAT = 13.082
+LON = 80.270
+
 endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 api_key = os.environ.get("API_KEY")
-account_sid = "1111111111"
+account_sid = os.environ.get("ACC_SID")
 auth_token = os.environ.get("AUTH_TKN")
 
 weather_params = {
-    'lat': 20.145929,
-    'lon': 92.876320,
+    'lat': LAT,
+    'lon': LON,
     'appid': api_key,
     'exclude': 'current,daily,minutely'
 }
@@ -32,7 +36,7 @@ if will_rain:
         .create(
         body="you probably need an umbrella!",
         from_="+123456789",
-        to='+1111111111'
+        to='+1111111111',
     )
 
     print(message.status)
